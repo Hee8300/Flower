@@ -7,25 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17C134FB00E75034A7CBF7F8 /* Pods_floata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE51F40713A623BBA28BC06 /* Pods_floata.framework */; };
 		EC5818A627433824006E0961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818A527433824006E0961 /* AppDelegate.swift */; };
 		EC5818A827433824006E0961 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818A727433824006E0961 /* SceneDelegate.swift */; };
-		EC5818AA27433824006E0961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818A927433824006E0961 /* ViewController.swift */; };
 		EC5818AD27433824006E0961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5818AB27433824006E0961 /* Main.storyboard */; };
 		EC5818B027433824006E0961 /* floata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC5818AE27433824006E0961 /* floata.xcdatamodeld */; };
 		EC5818B227433826006E0961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5818B127433826006E0961 /* Assets.xcassets */; };
 		EC5818B527433826006E0961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5818B327433826006E0961 /* LaunchScreen.storyboard */; };
+		EC5818C827433A43006E0961 /* Writer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818C627433A43006E0961 /* Writer+CoreDataClass.swift */; };
+		EC5818C927433A43006E0961 /* Writer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818C727433A43006E0961 /* Writer+CoreDataProperties.swift */; };
+		EC5818D427433D70006E0961 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818CD27433D6F006E0961 /* DetailTableViewCell.swift */; };
+		EC5818D527433D70006E0961 /* DpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818CE27433D6F006E0961 /* DpTableViewCell.swift */; };
+		EC5818D627433D70006E0961 /* RepeatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818CF27433D6F006E0961 /* RepeatTableViewCell.swift */; };
+		EC5818D727433D70006E0961 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818D027433D6F006E0961 /* AlarmTableViewCell.swift */; };
+		EC5818D827433D70006E0961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818D127433D6F006E0961 /* ViewController.swift */; };
+		EC5818D927433D70006E0961 /* SetAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818D227433D70006E0961 /* SetAlarmViewController.swift */; };
+		EC5818DA27433D70006E0961 /* AlarmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818D327433D70006E0961 /* AlarmDetailViewController.swift */; };
+		EC5818DD27433DC7006E0961 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818DC27433DC7006E0961 /* InternetViewController.swift */; };
+		EC5818E127433DD7006E0961 /* weatherson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818DE27433DD7006E0961 /* weatherson.swift */; };
+		EC5818E227433DD7006E0961 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818DF27433DD7006E0961 /* WeatherViewController.swift */; };
+		EC5818E327433DD7006E0961 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818E027433DD7006E0961 /* WeatherService.swift */; };
+		EC5818E527433DE5006E0961 /* Weather.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC5818E427433DE5006E0961 /* Weather.plist */; };
+		EC5818E72744A08D006E0961 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818E62744A08D006E0961 /* DiaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AE51F40713A623BBA28BC06 /* Pods_floata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_floata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		619DB7E9128A08C0D1E19084 /* Pods-floata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-floata.release.xcconfig"; path = "Target Support Files/Pods-floata/Pods-floata.release.xcconfig"; sourceTree = "<group>"; };
+		DAB71AD429B50C7A0F075B89 /* Pods-floata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-floata.debug.xcconfig"; path = "Target Support Files/Pods-floata/Pods-floata.debug.xcconfig"; sourceTree = "<group>"; };
 		EC5818A227433824006E0961 /* floata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = floata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5818A527433824006E0961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC5818A727433824006E0961 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC5818A927433824006E0961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC5818AC27433824006E0961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC5818AF27433824006E0961 /* floata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = floata.xcdatamodel; sourceTree = "<group>"; };
 		EC5818B127433826006E0961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5818B427433826006E0961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC5818B627433826006E0961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5818C627433A43006E0961 /* Writer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Writer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EC5818C727433A43006E0961 /* Writer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Writer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EC5818CD27433D6F006E0961 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		EC5818CE27433D6F006E0961 /* DpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DpTableViewCell.swift; sourceTree = "<group>"; };
+		EC5818CF27433D6F006E0961 /* RepeatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatTableViewCell.swift; sourceTree = "<group>"; };
+		EC5818D027433D6F006E0961 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		EC5818D127433D6F006E0961 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC5818D227433D70006E0961 /* SetAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetAlarmViewController.swift; sourceTree = "<group>"; };
+		EC5818D327433D70006E0961 /* AlarmDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmDetailViewController.swift; sourceTree = "<group>"; };
+		EC5818DC27433DC7006E0961 /* InternetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		EC5818DE27433DD7006E0961 /* weatherson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weatherson.swift; sourceTree = "<group>"; };
+		EC5818DF27433DD7006E0961 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		EC5818E027433DD7006E0961 /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		EC5818E427433DE5006E0961 /* Weather.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Weather.plist; sourceTree = "<group>"; };
+		EC5818E62744A08D006E0961 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C134FB00E75034A7CBF7F8 /* Pods_floata.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52EB7DE365A3A9286AFE080A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AE51F40713A623BBA28BC06 /* Pods_floata.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC58189927433824006E0961 = {
 			isa = PBXGroup;
 			children = (
 				EC5818A427433824006E0961 /* floata */,
 				EC5818A327433824006E0961 /* Products */,
+				FBC6ECB49EC05B24CE26FE6B /* Pods */,
+				52EB7DE365A3A9286AFE080A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +101,79 @@
 		EC5818A427433824006E0961 /* floata */ = {
 			isa = PBXGroup;
 			children = (
+				EC5818DB27433DC7006E0961 /* internet */,
+				EC5818CB27433B2D006E0961 /* weather */,
+				EC5818CA27433AD4006E0961 /* diary */,
+				EC5818BC2743390A006E0961 /* alram */,
 				EC5818A527433824006E0961 /* AppDelegate.swift */,
 				EC5818A727433824006E0961 /* SceneDelegate.swift */,
-				EC5818A927433824006E0961 /* ViewController.swift */,
 				EC5818AB27433824006E0961 /* Main.storyboard */,
 				EC5818B127433826006E0961 /* Assets.xcassets */,
 				EC5818B327433826006E0961 /* LaunchScreen.storyboard */,
 				EC5818B627433826006E0961 /* Info.plist */,
+				EC5818E427433DE5006E0961 /* Weather.plist */,
 				EC5818AE27433824006E0961 /* floata.xcdatamodeld */,
 			);
 			path = floata;
+			sourceTree = "<group>";
+		};
+		EC5818BC2743390A006E0961 /* alram */ = {
+			isa = PBXGroup;
+			children = (
+				EC5818CC27433D6F006E0961 /* cell */,
+				EC5818D327433D70006E0961 /* AlarmDetailViewController.swift */,
+				EC5818D227433D70006E0961 /* SetAlarmViewController.swift */,
+				EC5818D127433D6F006E0961 /* ViewController.swift */,
+			);
+			path = alram;
+			sourceTree = "<group>";
+		};
+		EC5818CA27433AD4006E0961 /* diary */ = {
+			isa = PBXGroup;
+			children = (
+				EC5818C627433A43006E0961 /* Writer+CoreDataClass.swift */,
+				EC5818C727433A43006E0961 /* Writer+CoreDataProperties.swift */,
+				EC5818E62744A08D006E0961 /* DiaryViewController.swift */,
+			);
+			path = diary;
+			sourceTree = "<group>";
+		};
+		EC5818CB27433B2D006E0961 /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				EC5818E027433DD7006E0961 /* WeatherService.swift */,
+				EC5818DE27433DD7006E0961 /* weatherson.swift */,
+				EC5818DF27433DD7006E0961 /* WeatherViewController.swift */,
+			);
+			path = weather;
+			sourceTree = "<group>";
+		};
+		EC5818CC27433D6F006E0961 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC5818CD27433D6F006E0961 /* DetailTableViewCell.swift */,
+				EC5818CE27433D6F006E0961 /* DpTableViewCell.swift */,
+				EC5818CF27433D6F006E0961 /* RepeatTableViewCell.swift */,
+				EC5818D027433D6F006E0961 /* AlarmTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		EC5818DB27433DC7006E0961 /* internet */ = {
+			isa = PBXGroup;
+			children = (
+				EC5818DC27433DC7006E0961 /* InternetViewController.swift */,
+			);
+			path = internet;
+			sourceTree = "<group>";
+		};
+		FBC6ECB49EC05B24CE26FE6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAB71AD429B50C7A0F075B89 /* Pods-floata.debug.xcconfig */,
+				619DB7E9128A08C0D1E19084 /* Pods-floata.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC5818B927433826006E0961 /* Build configuration list for PBXNativeTarget "floata" */;
 			buildPhases = (
+				7BEA1713C8633B43E3579BF1 /* [CP] Check Pods Manifest.lock */,
 				EC58189E27433824006E0961 /* Sources */,
 				EC58189F27433824006E0961 /* Frameworks */,
 				EC5818A027433824006E0961 /* Resources */,
+				E5A7744ABFDC22374F760FF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,20 +239,76 @@
 				EC5818B527433826006E0961 /* LaunchScreen.storyboard in Resources */,
 				EC5818B227433826006E0961 /* Assets.xcassets in Resources */,
 				EC5818AD27433824006E0961 /* Main.storyboard in Resources */,
+				EC5818E527433DE5006E0961 /* Weather.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BEA1713C8633B43E3579BF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-floata-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A7744ABFDC22374F760FF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-floata/Pods-floata-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-floata/Pods-floata-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-floata/Pods-floata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC58189E27433824006E0961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5818AA27433824006E0961 /* ViewController.swift in Sources */,
+				EC5818E327433DD7006E0961 /* WeatherService.swift in Sources */,
+				EC5818C827433A43006E0961 /* Writer+CoreDataClass.swift in Sources */,
+				EC5818E227433DD7006E0961 /* WeatherViewController.swift in Sources */,
+				EC5818DD27433DC7006E0961 /* InternetViewController.swift in Sources */,
+				EC5818D427433D70006E0961 /* DetailTableViewCell.swift in Sources */,
+				EC5818D927433D70006E0961 /* SetAlarmViewController.swift in Sources */,
+				EC5818C927433A43006E0961 /* Writer+CoreDataProperties.swift in Sources */,
+				EC5818E127433DD7006E0961 /* weatherson.swift in Sources */,
+				EC5818D827433D70006E0961 /* ViewController.swift in Sources */,
 				EC5818A627433824006E0961 /* AppDelegate.swift in Sources */,
+				EC5818D727433D70006E0961 /* AlarmTableViewCell.swift in Sources */,
 				EC5818B027433824006E0961 /* floata.xcdatamodeld in Sources */,
+				EC5818E72744A08D006E0961 /* DiaryViewController.swift in Sources */,
+				EC5818D627433D70006E0961 /* RepeatTableViewCell.swift in Sources */,
 				EC5818A827433824006E0961 /* SceneDelegate.swift in Sources */,
+				EC5818D527433D70006E0961 /* DpTableViewCell.swift in Sources */,
+				EC5818DA27433D70006E0961 /* AlarmDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +452,7 @@
 		};
 		EC5818BA27433826006E0961 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB71AD429B50C7A0F075B89 /* Pods-floata.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +481,7 @@
 		};
 		EC5818BB27433826006E0961 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619DB7E9128A08C0D1E19084 /* Pods-floata.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
