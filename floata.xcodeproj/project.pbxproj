@@ -28,7 +28,11 @@
 		EC5818E227433DD7006E0961 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818DF27433DD7006E0961 /* WeatherViewController.swift */; };
 		EC5818E327433DD7006E0961 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818E027433DD7006E0961 /* WeatherService.swift */; };
 		EC5818E527433DE5006E0961 /* Weather.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC5818E427433DE5006E0961 /* Weather.plist */; };
-		EC5818E72744A08D006E0961 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818E62744A08D006E0961 /* DiaryViewController.swift */; };
+		EC5818EB274B328D006E0961 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818EA274B328D006E0961 /* DataManager.swift */; };
+		EC5818ED274B67ED006E0961 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818EC274B67ED006E0961 /* ShowViewController.swift */; };
+		EC5818EF274B6D33006E0961 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818EE274B6D33006E0961 /* WriteViewController.swift */; };
+		EC5818F1274B879E006E0961 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818F0274B879E006E0961 /* ListTableViewController.swift */; };
+		EC5818F3274BAFC7006E0961 /* floata++Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5818F2274BAFC7006E0961 /* floata++Bundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +61,11 @@
 		EC5818DF27433DD7006E0961 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		EC5818E027433DD7006E0961 /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		EC5818E427433DE5006E0961 /* Weather.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Weather.plist; sourceTree = "<group>"; };
-		EC5818E62744A08D006E0961 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		EC5818EA274B328D006E0961 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EC5818EC274B67ED006E0961 /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		EC5818EE274B6D33006E0961 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		EC5818F0274B879E006E0961 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		EC5818F2274BAFC7006E0961 /* floata++Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "floata++Bundle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,7 @@
 				EC5818B627433826006E0961 /* Info.plist */,
 				EC5818E427433DE5006E0961 /* Weather.plist */,
 				EC5818AE27433824006E0961 /* floata.xcdatamodeld */,
+				EC5818F2274BAFC7006E0961 /* floata++Bundle.swift */,
 			);
 			path = floata;
 			sourceTree = "<group>";
@@ -133,7 +142,10 @@
 			children = (
 				EC5818C627433A43006E0961 /* Writer+CoreDataClass.swift */,
 				EC5818C727433A43006E0961 /* Writer+CoreDataProperties.swift */,
-				EC5818E62744A08D006E0961 /* DiaryViewController.swift */,
+				EC5818EA274B328D006E0961 /* DataManager.swift */,
+				EC5818EC274B67ED006E0961 /* ShowViewController.swift */,
+				EC5818EE274B6D33006E0961 /* WriteViewController.swift */,
+				EC5818F0274B879E006E0961 /* ListTableViewController.swift */,
 			);
 			path = diary;
 			sourceTree = "<group>";
@@ -295,19 +307,23 @@
 				EC5818E327433DD7006E0961 /* WeatherService.swift in Sources */,
 				EC5818C827433A43006E0961 /* Writer+CoreDataClass.swift in Sources */,
 				EC5818E227433DD7006E0961 /* WeatherViewController.swift in Sources */,
+				EC5818F3274BAFC7006E0961 /* floata++Bundle.swift in Sources */,
 				EC5818DD27433DC7006E0961 /* InternetViewController.swift in Sources */,
 				EC5818D427433D70006E0961 /* DetailTableViewCell.swift in Sources */,
 				EC5818D927433D70006E0961 /* SetAlarmViewController.swift in Sources */,
+				EC5818F1274B879E006E0961 /* ListTableViewController.swift in Sources */,
 				EC5818C927433A43006E0961 /* Writer+CoreDataProperties.swift in Sources */,
+				EC5818EB274B328D006E0961 /* DataManager.swift in Sources */,
 				EC5818E127433DD7006E0961 /* weatherson.swift in Sources */,
+				EC5818ED274B67ED006E0961 /* ShowViewController.swift in Sources */,
 				EC5818D827433D70006E0961 /* ViewController.swift in Sources */,
 				EC5818A627433824006E0961 /* AppDelegate.swift in Sources */,
 				EC5818D727433D70006E0961 /* AlarmTableViewCell.swift in Sources */,
 				EC5818B027433824006E0961 /* floata.xcdatamodeld in Sources */,
-				EC5818E72744A08D006E0961 /* DiaryViewController.swift in Sources */,
 				EC5818D627433D70006E0961 /* RepeatTableViewCell.swift in Sources */,
 				EC5818A827433824006E0961 /* SceneDelegate.swift in Sources */,
 				EC5818D527433D70006E0961 /* DpTableViewCell.swift in Sources */,
+				EC5818EF274B6D33006E0961 /* WriteViewController.swift in Sources */,
 				EC5818DA27433D70006E0961 /* AlarmDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

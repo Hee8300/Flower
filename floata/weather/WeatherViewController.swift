@@ -39,7 +39,10 @@ class WeatherViewController: UIViewController {
     }
     
     private func setWeatherUI() {
-        let url = URL(string: "https://openweathermap.org/img/wn/\(self.weather?.icon ?? "00")@2x.png")
+        
+        let appid = Bundle.main.apiKey
+        
+        let url = URL(string: "api.openweathermap.org/data/2.5/weather?q=seoul&appid=\(appid)&units=metric")
         let data = try? Data(contentsOf: url!)
         if let data = data {
             weatherImage.image = UIImage(data: data)
